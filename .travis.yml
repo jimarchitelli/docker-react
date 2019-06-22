@@ -6,4 +6,4 @@ before_install:
   - docker build -t jmarchitelli/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run jmarchitelli/docker-react nmpm run test -- --coverage
+  - docker run jmarchitelli/docker-react npm run test -- --coverage
